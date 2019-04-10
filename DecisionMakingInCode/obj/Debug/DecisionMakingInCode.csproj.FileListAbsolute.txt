@@ -1,0 +1,7 @@
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\bin\Debug\DecisionMakingInCode.exe.config
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\bin\Debug\DecisionMakingInCode.exe
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\bin\Debug\DecisionMakingInCode.pdb
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.csprojAssemblyReference.cache
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.csproj.CoreCompileInputs.cache
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.exe
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.pdb

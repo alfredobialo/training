@@ -1,0 +1,7 @@
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\bin\Debug\DateTime.exe.config
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\bin\Debug\DateTime.exe
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\bin\Debug\DateTime.pdb
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\obj\Debug\DateTime.csprojAssemblyReference.cache
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\obj\Debug\DateTime.csproj.CoreCompileInputs.cache
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\obj\Debug\DateTime.exe
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\DateTime\obj\Debug\DateTime.pdb
