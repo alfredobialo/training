@@ -39,7 +39,11 @@ Kano                                    Kano
             // Escape Character Test
             EscapeCharacterDemo();
 
-           
+            int x = 600;
+            if( x >= 600 && x <=  1000)
+            {
+
+            }
 
             string abc = "Happy People";
             string c = abc
@@ -104,7 +108,6 @@ Kano                                    Kano
         }
         public static string Right(string input , int len)
         {
-               
             return input.Substring(input.Length-len, len);
         }
         public static string Mid(string input , int startIndex , int endIndex)

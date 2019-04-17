@@ -1,0 +1,7 @@
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\bin\Debug\CalculatorApp.exe
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\bin\Debug\CalculatorApp.pdb
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\obj\Debug\CalculatorApp.csprojAssemblyReference.cache
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\obj\Debug\CalculatorApp.csproj.CoreCompileInputs.cache
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\obj\Debug\CalculatorApp.exe
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\CalculatorApp\obj\Debug\CalculatorApp.pdb

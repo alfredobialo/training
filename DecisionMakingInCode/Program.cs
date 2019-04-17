@@ -11,14 +11,45 @@ namespace DecisionMakingInCode
         static void Main(string[] args)
         {
 
-            Console.WriteLine(GetMaxNumber(
-                secondValue : 50, 
-                name :"John", 
-                 firstValue : 100));
+            //Console.WriteLine(GetMaxNumber(
+            //    secondValue : 50, 
+            //    name :"John", 
+            //     firstValue : 100));
+
+            int a = 10;
+            int b = a;
+
+            a = 20;  //
+
+
+            changeValue(b);
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
+
             Console.ReadLine();
 
         }
 
+
+
+        static void changeValue(int value)
+        {
+
+            Point myPt  =  new Point(40, 60);
+            Point newPt = new Point(10, 20);
+            var result  = myPt.Add(newPt);
+            //result.ToString();
+            Console.WriteLine(result.ToString());
+            Point set = new Point(30, 40), set2 = new Point(90, 20),
+            set3 = new Point(56, 78);
+            Point myResult = set.Add(set2).Add(set3);
+            Console.WriteLine(myResult);
+
+            value = 100;
+
+        }
 
         // If construct for decision making or code branching
         /*
@@ -130,4 +161,39 @@ namespace DecisionMakingInCode
 
         }
     }
+
+    public struct  Point
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+
+        //Constructor
+        public Point(int x , int y)
+        {
+            X = x;
+            Y = y;
+        }
+
+
+        public Point(int x)
+        {
+            X = x;
+            Y = 0;
+        }
+
+        public Point Add(Point pt)
+        {
+            return new Point(X + pt.X, Y + pt.Y);
+        }
+
+        public override string ToString()
+        {
+            return $"[X:{X},Y:{Y}]";
+        }
+
+
+
+    }
+
+
 }
