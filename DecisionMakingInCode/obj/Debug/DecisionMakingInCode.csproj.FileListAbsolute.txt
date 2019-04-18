@@ -5,3 +5,10 @@ C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\Dec
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.csproj.CoreCompileInputs.cache
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.exe
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.pdb
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\bin\Debug\DecisionMakingInCode.exe.config
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\bin\Debug\DecisionMakingInCode.exe
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\bin\Debug\DecisionMakingInCode.pdb
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.csprojAssemblyReference.cache
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.csproj.CoreCompileInputs.cache
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.exe
+C:\asomprojects\dotNetCoreApps\learn Project\training\DecisionMakingInCode\obj\Debug\DecisionMakingInCode.pdb

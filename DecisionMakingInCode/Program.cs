@@ -6,10 +6,119 @@ using System.Threading.Tasks;
 
 namespace DecisionMakingInCode
 {
+
+    public class Point2D
+    {
+        public Point2D(int x, int y)
+        {
+            X = x;
+            Y = y;
+        }
+        public int X { get; set; }
+        public int Y { get; set; }
+
+    }
     class Program
     {
         static void Main(string[] args)
         {
+
+            Point2D[] mapPt = {
+                new Point2D(20,40),
+                new Point2D(123,500),
+                new Point2D(80,300),
+                new Point2D(30,70),
+
+            };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            foreach (var pt in mapPt)
+            {
+                Console.WriteLine(pt.X);
+
+            }
+
+
 
             Console.WriteLine(GetMaxNumber(
                 secondValue : 50, 

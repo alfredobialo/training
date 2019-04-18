@@ -1,0 +1,10 @@
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\bin\Debug\Calculator.exe.config
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\bin\Debug\Calculator.exe
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\bin\Debug\Calculator.pdb
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.Form1.resources
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.exe
+C:\asomprojects\dotNetCoreApps\learn Project\training\Calculator\obj\Debug\Calculator.pdb
