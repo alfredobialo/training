@@ -12,12 +12,18 @@ namespace CalculatorApp
         {
             Calculator cal = new Calculator();
 
-            cal.PressNumber(CalculatorNumbers.Num4);
-
-            cal.PressNumber(CalculatorNumbers.Num6);
+            cal.PressNumber(CalculatorNumbers.Num4)
+               .PressNumber(CalculatorNumbers.Num6);
+            cal.PressOperator(CalculatorOperator.Plus);
+            cal.PressNumber(CalculatorNumbers.Num6)
+                .PressNumber(CalculatorNumbers.Num0);
 
 
             Console.WriteLine(cal.LCD.Label);
+
+            cal.PressOperator(CalculatorOperator.Eql);
+
+            Console.WriteLine(cal.LCD.Result);
             Console.ReadLine();
         }
     }

@@ -35,17 +35,37 @@ namespace CalculatorApp
 
     public class Calculator
     {
-       
-
-        public void PressNumber(CalculatorNumbers num)
+        bool opPress = false; // true if an operator has been pressed
+        private void resetOpPress()
         {
+            opPress = false;
+        }
+        public Calculator PressNumber(CalculatorNumbers num)
+        {
+            if(!opPress)
+            {
             lcd.Label += ((int)num).ToString();
+
+            }
+            else
+            {
+
+            }
+            return this;
         }
         public void PressOperator(CalculatorOperator op)
         {
+            opPress = true;
             if(op == CalculatorOperator.Eql)
             {
                 lcd.Result = lcd.Label;
+                // if equals operator is press , reset opPress Status
+                resetOpPress();
+                // get the result from the operation;
+            }
+            else if(op  == CalculatorOperator.Plus)
+            {
+                // capture previous lcd label
             }
         }
         CalDisplay lcd = new CalDisplay() { Result = "0"};
