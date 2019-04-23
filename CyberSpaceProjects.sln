@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningOOP", "LearningOOP\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorApp", "CalculatorApp\CalculatorApp.csproj", "{D1A33EB5-74D6-4D75-ACA8-537AE710CDE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCostPlatform", "ItemCostPlatform\ItemCostPlatform.csproj", "{3F780200-9511-425B-A44E-87B7D272D3A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D1A33EB5-74D6-4D75-ACA8-537AE710CDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A33EB5-74D6-4D75-ACA8-537AE710CDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A33EB5-74D6-4D75-ACA8-537AE710CDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F780200-9511-425B-A44E-87B7D272D3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F780200-9511-425B-A44E-87B7D272D3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F780200-9511-425B-A44E-87B7D272D3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F780200-9511-425B-A44E-87B7D272D3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
