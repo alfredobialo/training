@@ -12,6 +12,12 @@ namespace LearningOOP
     {
         static void Main(string[] args)
         {
+            string doc   = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            EmployeePayrollReport rpt = new EmployeePayrollReport();
+            rpt.GenerateReport(doc+"\\2019_April_Salary_report", EmployeePayrollReport.DocumentType.Txt);
+            ReadLine();
+
+
             Person p = new Person();
             Person p2 = new Person();
             //p.FirstName = "Alfred";
