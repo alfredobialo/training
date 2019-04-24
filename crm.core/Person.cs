@@ -13,7 +13,12 @@ namespace crm.core
         private string lastName;
         private int age =10;
 
+        public string FullName => $"{FirstName} {LastName}";
+        public override string ToString()
+        {
 
+            return FullName ;
+        }
         public int Age { get => age; set  => age =value; }
         public float Height { get => height; set => height = value; }
         public string FirstName

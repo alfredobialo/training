@@ -16,8 +16,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorApp", "CalculatorApp\CalculatorApp.csproj", "{D1A33EB5-74D6-4D75-ACA8-537AE710CDE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCostPlatform", "ItemCostPlatform\ItemCostPlatform.csproj", "{3F780200-9511-425B-A44E-87B7D272D3A6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{06719933-812D-4543-AEC1-82637FBADDE5} = {06719933-812D-4543-AEC1-82637FBADDE5}
+		{1F60E45A-D18C-4144-B584-2B9C32CBCFE4} = {1F60E45A-D18C-4144-B584-2B9C32CBCFE4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCostPlatform.Core", "ItemCostPlatform.Core\ItemCostPlatform.Core.csproj", "{06719933-812D-4543-AEC1-82637FBADDE5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F60E45A-D18C-4144-B584-2B9C32CBCFE4} = {1F60E45A-D18C-4144-B584-2B9C32CBCFE4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.core", "crm.core\crm.core.csproj", "{1F60E45A-D18C-4144-B584-2B9C32CBCFE4}"
 EndProject

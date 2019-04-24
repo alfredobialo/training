@@ -1,7 +1,6 @@
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\bin\Debug\LearningOOP.exe.config
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\bin\Debug\LearningOOP.exe
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\bin\Debug\LearningOOP.pdb
-C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\obj\Debug\LearningOOP.csprojAssemblyReference.cache
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\obj\Debug\LearningOOP.csproj.CoreCompileInputs.cache
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\obj\Debug\LearningOOP.exe
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\LearningOOP\obj\Debug\LearningOOP.pdb

@@ -12,6 +12,7 @@ namespace ItemCostPlatform.Core.Sales
     {
         public SalesTransaction(Customer billTo)
         {
+           
             BillTo = billTo;
         }
         public Customer BillTo { get; internal set; }
