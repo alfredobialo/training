@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorApp", "Calculator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCostPlatform", "ItemCostPlatform\ItemCostPlatform.csproj", "{3F780200-9511-425B-A44E-87B7D272D3A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCostPlatform.Core", "ItemCostPlatform.Core\ItemCostPlatform.Core.csproj", "{06719933-812D-4543-AEC1-82637FBADDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crm.core", "crm.core\crm.core.csproj", "{1F60E45A-D18C-4144-B584-2B9C32CBCFE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{3F780200-9511-425B-A44E-87B7D272D3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F780200-9511-425B-A44E-87B7D272D3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F780200-9511-425B-A44E-87B7D272D3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06719933-812D-4543-AEC1-82637FBADDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06719933-812D-4543-AEC1-82637FBADDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06719933-812D-4543-AEC1-82637FBADDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06719933-812D-4543-AEC1-82637FBADDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F60E45A-D18C-4144-B584-2B9C32CBCFE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F60E45A-D18C-4144-B584-2B9C32CBCFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F60E45A-D18C-4144-B584-2B9C32CBCFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F60E45A-D18C-4144-B584-2B9C32CBCFE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

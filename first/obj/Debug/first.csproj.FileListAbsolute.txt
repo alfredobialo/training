@@ -4,3 +4,4 @@ C:\Users\Dvlp\source\repos\CyberSpaceProjects\first\bin\Debug\first.pdb
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\first\obj\Debug\first.csproj.CoreCompileInputs.cache
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\first\obj\Debug\first.exe
 C:\Users\Dvlp\source\repos\CyberSpaceProjects\first\obj\Debug\first.pdb
+C:\Users\Dvlp\source\repos\CyberSpaceProjects\first\obj\Debug\first.csprojAssemblyReference.cache

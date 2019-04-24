@@ -13,6 +13,7 @@ namespace ItemCostingPlatform.Auth
         public string  LastName { get; set; }
         public string  EmailAddress { get; set; }
         //public Address ContactAddress { get; set; } Not Relevant we can get this from user's company info
+
         public UserCompany CompanyInfo { get; internal set; }
 
         public UserIdentity()
@@ -21,14 +22,28 @@ namespace ItemCostingPlatform.Auth
             CompanyInfo = new UserCompany();
         }
 
-        public UserIdentity(string id, string firstName, string lastName) :this()
+        public UserIdentity(string id,
+            string firstName, 
+            string lastName,
+            string emailAddress) : this(id, firstName, lastName)
+        {
+            EmailAddress = emailAddress;
+        }
+        public UserIdentity(string id, 
+            string firstName, string lastName) :  this()
         {
             FirstName = firstName;
             LastName = lastName;
             Id = id ?? Guid.NewGuid().ToString();
         }
 
-
+        public string FullName2
+        {
+            get
+            {
+                return $"{FirstName} {LastName}";
+            }
+         }
         public string FullName => $"{FirstName ?? "" } {LastName ?? ""}"; 
     }
 }

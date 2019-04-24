@@ -8,7 +8,7 @@ namespace ItemCostingPlatform.Auth
 {
     public class UserCompany
     {
-        public Address ContactAddress { get; set; }
+        public Address ContactAddress { get; set; } = new Address();
         public string Name { get; set; }
         public string PhoneNo { get; set; }
         public string  WebsiteUrl { get; set; }
