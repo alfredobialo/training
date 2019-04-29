@@ -21,15 +21,29 @@ namespace ItemCostingPlatform
 
 
             BankCustomer bc = new BankCustomer("John","Doe");
+            int a = 60; int b = 40;
+
+            Console.WriteLine($"Before Call : a ={a}, b ={b}");
+            int c = BankCustomer.Add(ref a, ref b);
+
+            Console.WriteLine($"After Call: a ={a}, b ={b}, c ={c}");
+
+            BankCustomer.Add(a, b, out int d);
+
+            Console.WriteLine(d);
+            Console.ReadLine();
+
+            bc.DoSomething();
+            Console.ReadLine();
             Console.WriteLine(bc.FullName);
             Console.WriteLine(new BankCustomer().PurchaseMsg);
-            Customer a = new Customer {
+            Customer a1 = new Customer {
                 FirstName = "Segun",
                 LastName = "Arinze",
                 Age = 50,
 
             };
-            SalesTransaction st = new SalesTransaction(a);
+            SalesTransaction st = new SalesTransaction(a1);
             SalesTransaction st2 = new SalesTransaction(new Customer {
                 FirstName ="Alfred",
                 LastName ="Obialo",

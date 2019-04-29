@@ -16,8 +16,8 @@ namespace crm.core
         {
              MakeNewPurchaseOrder();
         }
-        public Customer(string firstName, string lastName) : 
-            ()
+        public Customer(string firstName, string lastName) :this()
+
         {
             FirstName = firstName;
             LastName = lastName;
@@ -30,11 +30,11 @@ namespace crm.core
             purchMsg = "Making new Purchase Order";
         }
 
-        public int Return10()
+        public virtual int Return10()
         {
             return 10;
         }
-    }
+     }
 
 
 
@@ -46,6 +46,23 @@ namespace crm.core
 
         }
 
+
+        void DoNothing( string data)
+        {
+            if(data == "1")
+                return;
+            Console.Write(data);
+        }
+        public static int Add(ref int x , ref int y)
+        {
+            x += 10;
+            y *= 2;
+            return x + y;
+        }
+        public static void Add( int a,  int b, out int c)
+        {
+            c = a + b;
+        }
         public BankCustomer(string firstName, string lastName) : base(firstName, lastName)
         {
            
@@ -55,8 +72,12 @@ namespace crm.core
 
         public void DoSomething()
         {
-            base.Return10();
-            this.Return10();
+            Console.WriteLine("base.Return10() =" + base.Return10());
+            Console.WriteLine("this.Return10() = " + this.Return10());
+        }
+        public override int Return10()
+        {
+            return 110;
         }
         public override string ToString()
         {
